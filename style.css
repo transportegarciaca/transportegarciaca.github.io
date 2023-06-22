@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0% auto;
+}
+/* cualquier cosa aqui en display esta el error solo ponlo en comentario */
+.header{ 
+    background-image: url(images/46538.jpg); 
+    background-position: center bottom; 
+    background-repeat: no-repeat; 
+    background-size:cover;  
+    min-height: 85VH;
+    display: flex;  
+    align-items: center;
+}
+ .menu {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 1000;
+ }
+
+.logo{
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position:relative;
+    float: left;
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none; 
+}
+.header-txt{
+    text-align: center;
+}
+.header-txt h1 {
+    font-size: 85px;
+    color: #FFFDFC;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 12px 45px;
+    border: 1px  solid#FFFDFC;
+    color: #FFFDFC;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn-1:hover{
+    color: #1b293a;
+    background-color: #FFFDFC;
+}
+.general{
+    padding: 50px 0;
+    text-align: center;
+}
+.general-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.general-1{
+    background-image: url(images/punctuality-glyph-two-color-icon-vector.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170x 55px;
+}
+.general-2{
+    background-image: url(images/mercedes-benz-simone.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170x 55px;
+}
+.general-3{
+    background-image: url(images/tempsnip.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170x 55px;
+}
+.general-4{
+    background-image: url(images/a945eef28564ae85fff5ac18adf637d9-icono-de-telefono-redondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    padding: 200px 150px;
+}
+
+.general-5{
+    background-image: url(images/logo-Gmail-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    padding: 200px 200px;
+}
+.general-6{
+    background-image: url(images/instagram-1581266_640.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 200px 100px;
+}
+h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #1b293a;
+}
+h3{
+    font-size: 20px;
+    color: #1b293a;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.txt p{
+    color: #000000;
+    font-size: 18px;
+}
+
+.info-1{
+    padding: 250px;
+    background-image: url(images/105996976-conducir-por-carretera-concepto-logístico-de-transporte.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+.info-1 h2{
+    color: #FFFDFC;
+    text-transform: uppercase;
+}
+
+.info-1 .general-content {
+    padding: 10px;
+    color: #FFFDFC;
+    font-size: 20px;
+}
+.info-2{
+    padding: 50px 80px;
+    text-align: center;
+}
+.general-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer{
+    background-color: #1b293a;
+}
+ .footer h2 {
+    color: #FFFDFC;
+    text-align: center;
+ }  
+ .footer .general-content{
+ justify-content: center;
+ text-align: center;
+ }
+ .enlace1{
+    color: #000000;
+ }
